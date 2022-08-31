@@ -49,7 +49,7 @@ function copyPass(id) {
     tooltip.innerHTML = "Copy to clipboard";
   }, 3000);
 }
-function outFunc() {
-  let tooltip = document.getElementById("copyPassOneTooltip");
-  tooltip.innerHTML = "Copy to clipboard";
-}
+// function outFunc() {
+//   let tooltip = document.getElementById("copyPassOneTooltip");
+//   tooltip.innerHTML = "Copy to clipboard";
+// }

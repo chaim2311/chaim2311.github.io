@@ -22,8 +22,12 @@ h2 {
   font-size: 14px;
 }
 h3 {
+  color: var(--secondary-color);
   font-family: "Indie Flower", cursive;
   font-size: 22px;
+}
+h3 a{
+  color: var(--secondary-color);
 }
 
 hr {

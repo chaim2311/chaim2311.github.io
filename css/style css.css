@@ -9,7 +9,7 @@
 body {
   text-align: center;
   margin: 0;
-  background: #f0e4ec;
+  background: var(--quaternary-color);
 }
 
 h1 {
@@ -32,18 +32,16 @@ h3 a{
 
 hr {
   background-color: var(--primary-color);
-  border-color: rgb(231, 239, 239);
+  border-color: var(--quaternary-color);
   border-style: none;
   border-top-style: dashed;
-  border-width: 10px;
+  border-width: 7px;
   width: 100%;
   margin: 2px 0 2px 0;
 }
 li {
   padding: 8px 0;
 }
-
-/* primary section */
 
 /* head section */
 
@@ -137,8 +135,6 @@ li {
   background-color: var(--primary-color);
   padding: 45px 0 45px 0;
 }
-
-/* tests */
 
 .tooltipText {
   visibility: hidden;
